@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MyPetBook2</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="logo">logo</string>
+    <string name="adoption">ADOPTION</string>
+    <string name="vaccine">VACCINE</string>
+    <string name="businesses">BUSINESSES</string>
+    <string name="lost_pet">LOST PET</string>
+    <string-array name="petTypesArray">
+        <item>Dog</item>
+        <item>Cat</item>
+    </string-array>
+    <string-array name="pet_details">
+        <item>Name:</item>
+        <item>Age:</item>
+        <item>Type:</item>
+        <item>More info:</item>
+        <item>Contact Details:</item>
+    </string-array>
+    <string name="facebook_app_id">395002884216491</string>
+    <string name="hello_visitor">Hello Visitor!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="MyPetBookTitle">MyPetBook</string>
+</resources>

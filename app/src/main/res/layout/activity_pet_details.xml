@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pet_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.yaki.mypetbook2.map.PetDetailsActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/petImageViewContects"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/petImageViewContects"
+        android:id="@+id/nameTextView" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/colorBlack"
+        android:layout_alignBaseline="@id/nameTextView"
+        android:layout_toRightOf="@id/nameTextView"
+        android:id="@+id/nameTextViewContent" />
+
+    <TextView
+        android:text="Breed:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/nameTextView"
+        android:id="@+id/breedTextView" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/colorBlack"
+        android:layout_alignBaseline="@id/breedTextView"
+        android:layout_toRightOf="@id/breedTextView"
+        android:id="@+id/breedTextViewContent" />
+
+    <TextView
+        android:text="Age:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/breedTextView"
+        android:id="@+id/ageTextView" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/colorBlack"
+        android:layout_alignBaseline="@id/ageTextView"
+        android:layout_toRightOf="@id/ageTextView"
+        android:id="@+id/ageTextViewContent" />
+
+    <TextView
+        android:text="More Information:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/ageTextView"
+        android:id="@+id/infoTextView" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/colorBlack"
+        android:layout_alignBaseline="@id/infoTextView"
+        android:layout_toRightOf="@id/infoTextView"
+        android:id="@+id/infoTextViewContent" />
+
+    <TextView
+        android:text="Contact Details:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoTextView"
+        android:layout_marginTop="20dp"
+        android:id="@+id/contactTextView" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/colorBlack"
+        android:layout_alignBaseline="@id/contactTextView"
+        android:layout_toRightOf="@id/contactTextView"
+        android:id="@+id/contactTextViewContent" />
+
+    <TextView
+        android:text="Last seen on:"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contactTextViewContent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/lastSeenOnTextView" />
+
+    <TextView
+        android:text=""
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/colorBlack"
+        android:layout_alignBaseline="@id/lastSeenOnTextView"
+        android:layout_toRightOf="@id/lastSeenOnTextView"
+        android:id="@+id/lastSeenOnTextViewContent" />
+
+    <TextView
+        android:text="Last seen at:"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastSeenOnTextView"
+        android:layout_marginTop="20dp"
+        android:id="@+id/lastSeenAtTextView" />
+
+    <TextView
+        android:text=""
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/colorBlack"
+        android:layout_alignBaseline="@id/lastSeenAtTextView"
+        android:layout_toRightOf="@id/lastSeenAtTextView"
+        android:id="@+id/lastSeenAtTextViewContent" />
+
+</RelativeLayout>

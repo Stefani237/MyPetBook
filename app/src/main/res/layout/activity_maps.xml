@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android2="http://schemas.android.com/apk/res/android"
+    android2:layout_width="match_parent"
+    android2:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/tools">
+
+
+    <fragment xmlns:android2="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android2:id="@+id/map"
+    android2:name="com.google.android.gms.maps.SupportMapFragment"
+    android2:layout_width="match_parent"
+    android2:layout_height="450dp"
+    android2:layout_gravity="bottom"
+    android2:layout_marginBottom="5dp"
+    tools:context="com.yaki.mypetbook2.map.MapsActivity" />
+
+
+    <Button
+        android2:id="@+id/searchBtn"
+        android2:layout_width="wrap_content"
+        android2:layout_height="wrap_content"
+        android2:layout_marginTop="100dp"
+        android2:layout_gravity="center_horizontal"
+        android2:text="Find places" />
+
+    <RelativeLayout
+        android2:layout_width="match_parent"
+        android2:layout_height="230dp"
+        android2:id="@+id/fragment_container"
+        android2:layout_alignParentBottom="true"
+        android2:layout_alignParentStart="true">
+
+        <TextView
+            android2:text="everything around you"
+            android2:layout_width="wrap_content"
+            android2:layout_height="wrap_content"
+            android2:id="@+id/textView2"
+            android2:layout_alignParentTop="true"
+            android2:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android2:text="Vetrinary Clinic"
+            android2:layout_width="wrap_content"
+            android2:layout_height="wrap_content"
+            android2:id="@+id/VetrinaryClinic"
+            android2:layout_marginTop="11dp"
+            android2:layout_marginLeft="10dp"
+            android2:layout_below="@+id/petShop"
+            android2:layout_alignParentStart="true" />
+
+        <TextView
+            android2:text="Pet shop"
+            android2:layout_width="wrap_content"
+            android2:layout_height="wrap_content"
+            android2:layout_marginTop="16dp"
+            android2:layout_marginLeft="10dp"
+            android2:id="@+id/petShop"
+            android2:layout_below="@+id/textView2"
+            android2:layout_alignParentStart="true" />
+
+        <CheckBox
+            android2:layout_width="wrap_content"
+            android2:layout_height="wrap_content"
+            android2:id="@+id/petShopC"
+            android2:layout_alignBaseline="@+id/petShop"
+            android2:layout_alignBottom="@+id/petShop"
+            android2:buttonTint="#9FC4EE"
+            android2:layout_below="@id/textView2"
+            android2:layout_alignParentEnd="true" />
+
+        <CheckBox
+            android2:layout_width="wrap_content"
+            android2:layout_height="wrap_content"
+            android2:id="@+id/VetrinaryClinicC"
+            android2:layout_alignBaseline="@+id/VetrinaryClinic"
+            android2:layout_alignBottom="@+id/VetrinaryClinic"
+            android2:buttonTint="#9FC4EE"
+            android2:layout_above="@+id/petShopC"
+            android2:layout_alignParentEnd="true" />
+
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
+
+

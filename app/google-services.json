@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "12486838713",
+    "firebase_url": "https://mypetbook2-7caf6.firebaseio.com",
+    "project_id": "mypetbook2-7caf6",
+    "storage_bucket": "mypetbook2-7caf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12486838713:android:469cd23f3b6fe070",
+        "android_client_info": {
+          "package_name": "com.yaki.mypetbook2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12486838713-851ijl9bio92de3gnsgf30f90poi83h9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yaki.mypetbook2",
+            "certificate_hash": "ea35b2b7d8e70d5bef8a4b919fe7029ed977d362"
+          }
+        },
+        {
+          "client_id": "12486838713-duehbv4cjt9mpbucb9eb33kljfqjdb7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALSjChEr3p4k92atapdfr7px2txNmNwxc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12486838713-duehbv4cjt9mpbucb9eb33kljfqjdb7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
